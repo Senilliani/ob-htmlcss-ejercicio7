@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="ejercicio7.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Regístrate en los formularios</h3>
+        <div class="boton-registrar">
+            <button class="google-btn">
+                <picture>
+                    <img src="https://freesvg.org/img/1534129544.png" alt="logo-google">
+                </picture>
+                <span>Registrarse con Google</span>
+            </button>
+            <button class="twitter-btn">
+                <picture>T</picture>
+            </button>
+        </div>
+        <div class="separador">
+            <hr>
+            <span>Or</span>
+            <hr>
+        </div>
+        <form action="">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input id="name" name="name" type="text">
+                </label>
+
+                <label for="username">
+                    <span>Username</span>
+                    <input id="username" name="username" type="text">
+                </label>
+            </div>
+            <div>
+                <label for="email">
+                    <span>Email</span>
+                    <input id="email" name="email" type="email">
+                </label>
+            </div>
+            <div>
+                <label for="password">
+                    <span>Password</span>
+                    <input id="password" name="password" type="password"
+                    placeholder="6+ caracteres">
+                </label>
+            </div>
+            <div>
+                <label for="checkbox" class="check-label">
+                    <input type="checkbox" id="checkbox">
+                    <span>Creating an account means you’re okay with our Terms of Service, Privacy Policy, and our default Notification Settings. </span>
+                </label>
+            </div>
+                <button type="submit" class="submit-btn">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
